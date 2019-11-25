@@ -19,5 +19,11 @@ public class Rectangel {
         this.with = with;
         this.hieight = hieight;
     }
+void getArea( double area) {
+        area = with * hieight;
+}
 
+void getPerimiter(double perimiter){
+       perimiter = with + with + hieight + hieight;
+}
 }
