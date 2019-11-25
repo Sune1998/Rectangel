@@ -3,14 +3,6 @@ public class Rectangel {
     double hieight = 1;
 
 
-    public double getHieight() {
-        return hieight;
-    }
-
-    public double getWith() {
-        return with;
-    }
-
     Rectangel() {
 
     }
