@@ -1,8 +1,7 @@
 public class Rectangel {
     double with = 1;
     double hieight = 1;
-    double area;
-    double perimiter;
+
 
     public double getHieight() {
         return hieight;
@@ -12,12 +11,13 @@ public class Rectangel {
         return with;
     }
 
-    public double getArea() {
-        return area;
+    Rectangel() {
+
     }
 
-    public double getPerimiter () {
-        return perimiter;
+    Rectangel(double with, double hieight) {
+        this.with = with;
+        this.hieight = hieight;
     }
 
 }
